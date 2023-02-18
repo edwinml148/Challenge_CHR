@@ -19,7 +19,9 @@ PORT : 5432
 
 
 ## Instalacion:
-Para la instalacion del proyecto se requiere tener instalado previamente docker, tambien se recomiendo docker-desktop. Seguir los siguientes pasos.
+
+Seguir los siguientes pasos:
+
 1. Construimos los contenedores.
 
 ```
@@ -44,6 +46,12 @@ python manage.py migrate
 <br>
 <p align="center"><img src="img/4.JPG"></p>
 <br/>
+
+tambien se puede aplicar este comando desde la terminal:
+
+```
+docker-compose run web python manage.py migrate
+```
 
 ## Solucion:
 
