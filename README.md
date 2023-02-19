@@ -93,7 +93,7 @@ Tabla bike_stations
 <p align="center"><img src="img/2.JPG"></p>
 <br/>
 
-El endpoint construido se encarga de scrapear las url's de la forma https://seia.sea.gob.cl/busqueda/buscarProyectoAction.php?_paginador_fila_actual={page} y a su vez puebla la base de datos. El scrapeo total de todas las url's se guarda en el archivo **data.json** y tardo aproximadamente **3 horas 36 min**.
+El endpoint construido se encarga de scrapear las url's de la forma https://seia.sea.gob.cl/busqueda/buscarProyectoAction.php?_paginador_fila_actual={page} y a su vez puebla la base de datos. El scrapeo total de todas las url's se guarda en el archivo **datos.json** y tardo aproximadamente **3 horas 36 min**.
 
 <br>
 <p align="center"><img src="img/3.JPG"></p>
