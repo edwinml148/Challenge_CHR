@@ -1,6 +1,6 @@
-import json
 from django.db import models
 from django.contrib.postgres.fields import ArrayField
+
 
 # Create your models here.
 class Extra(models.Model):
@@ -19,12 +19,12 @@ class Extra(models.Model):
     uid: str = models.CharField(max_length=255)
 
     class Meta:
-        unique_together = ('uid',)
+        unique_together = ("uid",)
 
 
 class Stations(models.Model):
     empty_slots: int = models.IntegerField(null=True)
-    extra: Extra = models.ForeignKey('Extra',models.DO_NOTHING, related_name='bike_extra')
+    extra: Extra = models.ForeignKey("Extra", models.DO_NOTHING, related_name="bike_extra")
     free_bikes: int = models.IntegerField(null=True)
     id_api: str = models.CharField(max_length=255)
     latitude: float = models.FloatField(null=True)
@@ -33,5 +33,4 @@ class Stations(models.Model):
     timestamp: str = models.CharField(max_length=255)
 
     class Meta:
-        unique_together = ('id_api',)
-
+        unique_together = ("id_api",)

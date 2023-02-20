@@ -139,6 +139,11 @@ error : "final_page debe ser menor a {pages_max}"
 status_code : 400
 error : "La ultima pagina scrapeada fue pag. {last_page}"
 ```
+## Linter:
+```
+docker-compose exec web black .
+```
+
 
 ## Mejoras:
 

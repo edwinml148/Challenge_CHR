@@ -1,5 +1,6 @@
 from django.db import models
 
+
 # Create your models here.
 class Proyectos(models.Model):
     id_table: int = models.IntegerField(null=True)
