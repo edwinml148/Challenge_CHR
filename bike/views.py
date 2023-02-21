@@ -4,7 +4,7 @@ from rest_typed_views import typed_api_view
 from bike.services import data_injection_from_api
 
 
-@typed_api_view(["PUT"])
+@typed_api_view(["POST"])
 def data_injection() -> Response:
     count_rows = data_injection_from_api()
     message = f"created {count_rows} records in biker_extras and biker_stations table"

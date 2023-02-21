@@ -4,7 +4,7 @@ from rest_typed_views import Body, typed_api_view
 from evaluacion_ambiental.services import data_injection_from_scraper, numbers_page_from_homepage
 
 
-@typed_api_view(['PUT'])
+@typed_api_view(['POST'])
 def data_scraper(
     homepage: int = Body(source='homepage', default=None),
     final_page: int = Body(source='final_page', default=None),

@@ -58,7 +58,7 @@ docker-compose run web python manage.py migrate
 Para la actividades del reto se construyo dos endpoint:
 
 ### Actividad 1:
-* Metodo : PUT
+* Metodo : POST
 * URL : http://localhost:8000/bike/create_table
 
 <br>
@@ -85,7 +85,7 @@ Tabla bike_stations
 
 
 ### Actividad 2:
-* Metodo : PUT
+* Metodo : POST
 * URL : http://localhost:8000/evaluacion_ambiental/create_table
 * Body : { "homepage": 1, "final_page": 500 }
 
