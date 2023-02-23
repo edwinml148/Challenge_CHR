@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'bike',
     'evaluacion_ambiental',
+    'django_apscheduler',
 ]
 
 MIDDLEWARE = [

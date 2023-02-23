@@ -28,3 +28,5 @@ flake8
 black
 mypy
 types-requests
+apscheduler
+django_apscheduler
